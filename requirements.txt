@@ -1,1 +1,9 @@
-scrapy
+requests==2.25.1
+scrapy==2.5.0
+selenium==3.141.0
+mysqlclient==2.0.3
+aiohttp==3.7.4.post0
+aiomysql==0.0.21
+rq==1.8.0
+pyquery==1.4.3
+sqlalchemy==1.4.6
