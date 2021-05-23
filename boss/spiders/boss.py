@@ -22,6 +22,7 @@ class BossSpider(scrapy.Spider):
     def __init__(self):
         super().__init__()
         option = uc.ChromeOptions()
+        option.add_argument('--headless')
         option.add_argument("--start-maximized")
         self.browser = uc.Chrome(options=option)
 
