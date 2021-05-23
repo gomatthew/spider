@@ -30,12 +30,24 @@ class BossSpider(scrapy.Spider):
         print("spider closed")
         self.browser.quit()
 
+    def parse_list(self, response, **kwargs):
+        doc = pq(response.text)
+        li = doc('.job-list li').items()
+        for i in li:
+            yield Request(parse.urljoin(self.url_domain, i('.job-name a').attr('href')), callback=self.parse_job)
+        next_url = doc('a[ka=page-next]').attr('href')
+        if next_url != 'javascript:;':
+            yield Request(url=parse.urljoin(self.url_domain, next_url), callback=self.parse_list)
+        else:
+            self.spider_closed()
+            return
+
     def start_requests(self):
         self.browser.get(self.start_urls)
         time.sleep(3)
         doc = pq(self.browser.page_source)
         if doc('#geetVerifyBtn.btn').text():
-            button=self.browser.find_element_by_css_selector('#geetVerifyBtn.btn')
+            button = self.browser.find_element_by_css_selector('#geetVerifyBtn.btn')
             button.click()
             self.browser.get(self.start_urls)
             time.sleep(3)
@@ -44,12 +56,10 @@ class BossSpider(scrapy.Spider):
         for i in li:
             yield Request(parse.urljoin(self.url_domain, i('.job-name a').attr('href')), callback=self.parse_job)
         # response = HtmlResponse(url=self.browser.current_url, body=self.browser.page_source, encoding="utf-8")
-        next_url = doc('.page .next').attr('href')
+        next_url = doc('a[ka=page-next]').attr('href')
         if next_url != 'javascript:;':
-            yield Request(url=parse.urljoin(self.url_domain, next_url), callback=self.start_requests)
-        else:
-            self.spider_closed()
-            return
+            yield Request(url=parse.urljoin(self.url_domain, next_url), callback=self.parse_list)
+
 
     def parse_job(self, response):
         doc = pq(response.text)
