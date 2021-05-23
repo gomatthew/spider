@@ -8,6 +8,7 @@ from scrapy.http import Request
 from urllib import parse
 from ..items import BossItemLoader, BossItem
 from datetime import datetime
+from utils.Utils import get_md5
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -47,6 +48,7 @@ class BossSpider(scrapy.Spider):
     def parse_job(self, response):
         doc = pq(response.text)
         item_loader = BossItemLoader(item=BossItem(), response=response)
+        item_loader.add_value('url_id', get_md5(response.url))
         item_loader.add_value('city', doc('.text-city').text())
         item_loader.add_value('job_title', doc('title').text())
         item_loader.add_value('job_describe', doc('.job-sec .text').text())
@@ -60,8 +62,8 @@ class BossSpider(scrapy.Spider):
         item_loader.add_value('company_createtime', doc('.level-list .res-time').text().split('：')[-1])
         item_loader.add_value('company_registered_fund',
                               re.match('.*注册资金：(.*)万', doc('.level-list').text(), re.S).group(1))
-        item_loader.add_value('company_people', doc('.sider-company p').text().split()[2])
-        item_loader.add_value('company_industry', doc('.sider-company p').text().split()[3])
+        item_loader.add_value('company_people', re.findall('\d.*人', doc('.sider-company p').text()))
+        item_loader.add_value('company_industry', doc('.sider-company a[ka=job-detail-brandindustry]').text())
         item_loader.add_value('company_describe', doc('.job-sec.company-info .text').text())
         item_loader.add_value('create_time', datetime.now().strftime('%Y-%m-%d %X'))
 

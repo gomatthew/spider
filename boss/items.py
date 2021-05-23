@@ -13,6 +13,7 @@ class BossItemLoader(ItemLoader):
 
 
 class BossItem(scrapy.Item):
+    url_id = scrapy.Field()
     city = scrapy.Field()
     job_title = scrapy.Field()
     job_describe = scrapy.Field()

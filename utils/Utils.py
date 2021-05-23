@@ -1,7 +1,17 @@
 import requests
+from hashlib import md5
 from requests.packages import urllib3
 
 urllib3.disable_warnings()
+
+
+def get_md5(value):
+    if isinstance(value, str):
+        m = md5()
+        m.update(value.encode('utf8'))
+        return m.hexdigest()
+    else:
+        return 'wrong type'
 
 
 def http_get(url):

@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
-engine = create_engine('mysql+mysqldb://root:ICEkiss123@localhost:3306/spider?charset=utf8')
+engine = create_engine('mysql+mysqldb://root:makemoney@localhost:3306/spider?charset=utf8')
 DBSession = sessionmaker(bind=engine)
 
 

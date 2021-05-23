@@ -22,6 +22,6 @@ class BossPipeline:
         data.company_industry = item.get('company_industry')
         data.company_describe = item.get('company_describe')
         data.create_time = item.get('create_time')
-        session.add(data)
+        session.merge(data)
         session.commit()
         return item

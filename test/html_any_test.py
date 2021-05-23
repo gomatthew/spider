@@ -19,7 +19,8 @@ job_createtime = doc('.sider-company .gray').text().split('：')[-1]
 salary = doc('.salary').text().strip('薪').split('·')[-1]
 company_createtime = doc('.level-list .res-time').text().split('：')[-1]
 company_fund = re.match('.*注册资金：(.*)万', doc('.level-list').text(), re.S).group(1)
-company_people = doc('.sider-company p').text().split()
+company_people = doc('.sider-company a[ka=job-detail-brandindustry]').text()
 company_describe = doc('.job-sec.company-info .text').text()
 company = doc('.job-sec .name').text()
-print(company)
+
+print(company_people)
