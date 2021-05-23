@@ -8,7 +8,7 @@ from scrapy.http import Request
 from urllib import parse
 from ..items import BossItemLoader, BossItem
 from datetime import datetime
-from utils.Utils import get_md5
+from utils.Utils import get_md5, transfer_json
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -48,10 +48,11 @@ class BossSpider(scrapy.Spider):
     def parse_job(self, response):
         doc = pq(response.text)
         item_loader = BossItemLoader(item=BossItem(), response=response)
+        item_loader.add_value('job_tag', re.findall('query=(.*?)&', self.start_urls))
         item_loader.add_value('url_id', get_md5(response.url))
         item_loader.add_value('city', doc('.text-city').text())
         item_loader.add_value('job_title', doc('title').text())
-        item_loader.add_value('job_describe', doc('.job-sec .text').text())
+        item_loader.add_value('job_describe', transfer_json(doc('.job-sec .text').text()))
         item_loader.add_value('job_address', doc('.location-address').text())
         item_loader.add_value('job_url', response.url)
         item_loader.add_value('job_createtime', doc('.sider-company .gray').text().split('：')[-1])

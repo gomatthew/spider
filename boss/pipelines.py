@@ -7,7 +7,9 @@ session = DBSession()
 class BossPipeline:
     def process_item(self, item, spider):
         data = Boss()
+        data.url_id = item.get('url_id')
         data.city = item.get('city')
+        data.job_tag = item.get('job_tag')
         data.job_title = item.get('job_title')
         data.job_describe = item.get('job_describe')
         data.job_address = item.get('job_address')

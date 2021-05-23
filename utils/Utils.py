@@ -1,4 +1,5 @@
 import requests
+import json
 from hashlib import md5
 from requests.packages import urllib3
 
@@ -22,3 +23,9 @@ def http_get(url):
     }
     html = requests.get(url=url, headers=headers, verify=False)
     return html.text
+
+def transfer_json(value):
+    if isinstance(value,str):
+        return value
+    else:
+        return json.dumps(value)

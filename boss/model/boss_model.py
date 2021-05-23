@@ -8,8 +8,9 @@ Base = declarative_base(bind=engine)
 
 class Boss(Base):
     __tablename__ = 'boss_zhipin'
-    url_id = Column(Integer, primary_key=True)
+    url_id = Column(String(64), primary_key=True)
     city = Column(String(8), comment='城市')
+    job_tag = Column(String(8), comment='职位')
     job_title = Column(String(64), comment='职位名称')
     job_describe = Column(TEXT, comment='职位描述')
     job_address = Column(String(32), comment='工作地点')
@@ -24,6 +25,9 @@ class Boss(Base):
     company_industry = Column(String(16), comment='公司行业')
     company_describe = Column(TEXT, comment='公司描述')
     create_time = Column(DATETIME, comment='爬取时间', default=datetime.now().strftime('%Y-%m-%d %X'))
+
+    def __hash__(self):
+        return hash(self.url_id)
 
 
 if __name__ == '__main__':
