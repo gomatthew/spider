@@ -5,11 +5,11 @@
 
 import scrapy
 from scrapy.loader import ItemLoader
-
+from itemloaders.processors import TakeFirst
 
 class BossItemLoader(ItemLoader):
     # 自定义itemloader
-    pass
+    default_output_processor = TakeFirst()
 
 
 class BossItem(scrapy.Item):
