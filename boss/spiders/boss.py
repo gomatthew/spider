@@ -40,9 +40,9 @@ class BossSpider(scrapy.Spider):
         next_url = doc('.page .next').attr('href')
         if next_url != 'javascript:;':
             yield Request(url=parse.urljoin(self.url_domain, next_url), callback=self.start_requests)
-            return
         else:
             self.spider_closed()
+            return
 
     def parse_job(self, response):
         doc = pq(response.text)
