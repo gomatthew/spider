@@ -2,9 +2,9 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-
+import time
 from scrapy import signals
-
+from scrapy.http import HtmlResponse
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -101,3 +101,13 @@ class BossDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+class JSPageMiddleware(object):
+    #通过chrome请求动态网页
+    def process_request(self, request, spider):
+        if spider.name == "boss":
+            spider.browser.get(request.url)
+            time.sleep(3)
+            print ("访问:{0}".format(request.url))
+            callback = request.callback
+            return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding="utf-8", request=request)

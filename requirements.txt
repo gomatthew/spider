@@ -7,3 +7,4 @@ aiomysql==0.0.21
 rq==1.8.0
 pyquery==1.4.3
 sqlalchemy==1.4.6
+undetected_chromedriver==2.2.7
