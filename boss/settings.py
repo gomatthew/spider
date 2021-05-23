@@ -47,14 +47,16 @@ DBSession = sessionmaker(bind=engine)
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'boss.middlewares.BossSpiderMiddleware': 543,
+#     'boss.middlewares.BossSpiderMiddleware': 543,
+#
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'boss.middlewares.BossDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    'boss.middlewares.BossDownloaderMiddleware': 543,
+    'boss.middlewares.JSPageMiddleware': 500,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -64,9 +66,9 @@ DBSession = sessionmaker(bind=engine)
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'boss.pipelines.BossPipeline': 300,
-# }
+ITEM_PIPELINES = {
+   'boss.pipelines.BossPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

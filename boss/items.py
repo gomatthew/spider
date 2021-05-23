@@ -13,6 +13,7 @@ class BossItemLoader(ItemLoader):
 
 
 class BossItem(scrapy.Item):
+    city = scrapy.Field()
     job_title = scrapy.Field()
     job_describe = scrapy.Field()
     job_address = scrapy.Field()
@@ -20,6 +21,7 @@ class BossItem(scrapy.Item):
     job_createtime = scrapy.Field()
     salary = scrapy.Field()
     salary_multiple = scrapy.Field()
+    company = scrapy.Field()
     company_createtime = scrapy.Field()
     company_registered_fund = scrapy.Field()
     company_people = scrapy.Field()

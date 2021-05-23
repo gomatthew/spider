@@ -11,6 +11,7 @@ from datetime import datetime
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
+
 class BossSpider(scrapy.Spider):
     name = 'boss'
     allowed_domains = ['zhipin.com']
@@ -35,7 +36,6 @@ class BossSpider(scrapy.Spider):
         li = doc('.job-list li').items()
         for i in li:
             yield Request(parse.urljoin(self.url_domain, i('.job-name a').attr('href')), callback=self.parse_job)
-            return
         # response = HtmlResponse(url=self.browser.current_url, body=self.browser.page_source, encoding="utf-8")
         next_url = doc('.page .next').attr('href')
         if next_url != 'javascript:;':
@@ -45,15 +45,18 @@ class BossSpider(scrapy.Spider):
             self.spider_closed()
 
     def parse_job(self, response):
-        doc = pq(response)
+        doc = pq(response.text)
         item_loader = BossItemLoader(item=BossItem(), response=response)
+        item_loader.add_value('city', doc('.text-city').text())
         item_loader.add_value('job_title', doc('title').text())
         item_loader.add_value('job_describe', doc('.job-sec .text').text())
         item_loader.add_value('job_address', doc('.location-address').text())
         item_loader.add_value('job_url', response.url)
         item_loader.add_value('job_createtime', doc('.sider-company .gray').text().split('：')[-1])
         item_loader.add_value('salary', str(doc('.salary').text().strip('K').split('-')))
-        item_loader.add_value('salary_multiple', doc('.salary').text().strip('薪').split('·')[-1])
+        if '·' in doc('.salary').text():
+            item_loader.add_value('salary_multiple', doc('.salary').text().strip('薪').split('·')[-1])
+        item_loader.add_value('company', doc('.job-sec .name').text())
         item_loader.add_value('company_createtime', doc('.level-list .res-time').text().split('：')[-1])
         item_loader.add_value('company_registered_fund',
                               re.match('.*注册资金：(.*)万', doc('.level-list').text(), re.S).group(1))
