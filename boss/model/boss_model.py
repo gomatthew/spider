@@ -1,8 +1,8 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer, DATETIME, TEXT
 from datetime import datetime
-
-Base = declarative_base()
+from boss.settings import engine
+Base = declarative_base(bind = engine)
 
 
 class Boss(Base):
@@ -22,3 +22,5 @@ class Boss(Base):
     company_describe = Column(TEXT, comment='公司描述')
     create_time = Column(DATETIME, comment='爬取时间', default=datetime.now().strftime('%Y-%m-%d %X'))
 
+if __name__ == '__main__':
+    Base.metadata.create_all()

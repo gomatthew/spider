@@ -18,7 +18,7 @@ ROBOTSTXT_OBEY = False
 # user = 'root'
 # password = 'makemoney'
 # database = 'spider'
-engine = create_engine('mysql+mysqlconnector://root:makemoney@localhost:3306/spider')
+engine = create_engine('mysql://root:makemoney@localhost:3306/spider?charset=utf8')
 DBSession = sessionmaker(bind=engine)
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)

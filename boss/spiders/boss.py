@@ -1,4 +1,5 @@
 import time
+import ssl
 import scrapy
 import re
 import undetected_chromedriver as uc
@@ -8,6 +9,7 @@ from urllib import parse
 from ..items import BossItemLoader, BossItem
 from datetime import datetime
 
+ssl._create_default_https_context = ssl._create_unverified_context
 
 class BossSpider(scrapy.Spider):
     name = 'boss'

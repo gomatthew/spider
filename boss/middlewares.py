@@ -7,8 +7,8 @@ from scrapy import signals
 from scrapy.http import HtmlResponse
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
-
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 class BossSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
@@ -107,7 +107,7 @@ class JSPageMiddleware(object):
     def process_request(self, request, spider):
         if spider.name == "boss":
             spider.browser.get(request.url)
-            time.sleep(3)
+            time.sleep(35)
             print ("访问:{0}".format(request.url))
             callback = request.callback
             return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding="utf-8", request=request)
