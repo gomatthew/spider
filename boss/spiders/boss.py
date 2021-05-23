@@ -34,6 +34,12 @@ class BossSpider(scrapy.Spider):
         self.browser.get(self.start_urls)
         time.sleep(3)
         doc = pq(self.browser.page_source)
+        if doc('#geetVerifyBtn.btn').text():
+            button=self.browser.find_element_by_css_selector('#geetVerifyBtn.btn')
+            button.click()
+            self.browser.get(self.start_urls)
+            time.sleep(3)
+            doc = pq(self.browser.page_source)
         li = doc('.job-list li').items()
         for i in li:
             yield Request(parse.urljoin(self.url_domain, i('.job-name a').attr('href')), callback=self.parse_job)

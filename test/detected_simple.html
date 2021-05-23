@@ -1,0 +1,283 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <style type="text/css">
+        .sign-form .row-code {
+            width: 280px;
+            height: 60px;
+        }
+        #geetVerifyBtn {
+            border: 1px solid #5dd5c8;
+            padding: 0 20px;
+            width: auto;
+            color: #5dd5c8;
+        }
+
+        #geetVerifyBtn:hover {
+            color: #fff;
+            background: #5dd5c8;
+        }
+
+    </style>
+    <style>
+        * { margin:0; padding:0; }
+        html,body { height:100%; }
+        body { background-color:#EEF0F5; }
+        body,button { font-family: arial, verdana, helvetica,'PingFang SC','HanHei SC','STHeitiSC-Light', Microsoft Yahei,sans-serif; font-size: 14px; line-height: 24px; color: #414a60; -webkit-font-smoothing: antialiased;}
+        a { text-decoration:none; }
+        #wrap { position:relative; min-height:100%; }
+        .btn {
+            width: 100px;
+            display:inline-block;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            text-align:center;
+            margin-right:20px;
+            background-color: #fff;
+            border: 1px solid #2c3235;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 4px;
+            -webkit-appearance: none;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            transition: background-color .2s linear,box-shadow .2s linear;
+            outline: none;
+            user-select: none;
+         }
+        .btn:hover {
+            background-color:#3274d9;
+            color:#fff;
+        }
+        .error-content { position:absolute; width:800px; min-height:260px; top:50%; left:50%; margin-left:-400px; margin-top:-130px; margin-bottom:0px;background:url(https://www.zhipin.com/v2/web/boss/images/icon-page-error.png) right center no-repeat; }
+        .error-content h1 { font-size:30px; line-height:36px; padding-top:30px; }
+        .error-content h3 { padding:20px 0 18px; font-size:18px; font-weight: normal; }
+        .error-content h3.gray { color:#9fa3b0;}
+        .error-content p { color:#9fa3b0; max-width:300px; }
+        .error-content .btns { padding-top:30px; }
+        #tips { position:absolute; top:65%;min-height: 30px;width:100%; text-align:center; color:#9fa3b0; }
+        #footer { position:absolute; width:100%; bottom:10px; text-align:center; color:#bec3d1; }
+        @media (max-width: 760px) {
+            .error-content { top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0 auto; width: auto; background-position: center 30px; background-size: 200px auto; text-align: center; padding-top: 150px; }
+            .error-content h1 { font-size: 24px; }
+            .error-content h3 { font-size: 15px; padding: 10px 0 10px; }
+            .btns { white-space: nowrap; }
+            #footer { font-size: 12px; }
+        }
+
+        #verifyMessage {
+            padding-left: 10px;
+            width: 470px;
+        }
+
+        #wait {
+            text-align: left;
+            color: #666;
+            margin: 0;
+        }
+
+    </style>
+<link rel="stylesheet" href="https://www.zhipin.com/wapi/zpAntispam/verify/js/layer/theme/default/layer.css?v=3.1.1" id="layuicss-layer"></head>
+<body>
+<div id="wrap">
+    <div id="main">
+        <div class="error-content">
+            <div class="text" style="margin:50px 10px;margin-bottom:0px;">
+                <div id="captchaBox"><button id="geetVerifyBtn" class="btn">点击进行验证</button> <button id="callVerifyBtn" style="display:none">隐藏</button></div>
+            </div>
+            <h3 class="gray" id="verifyMessage">当前IP地址可能存在异常访问行为，完成验证后即可正常使用</h3>
+        </div>
+        <div>
+            <input type="hidden" id="callbackUrl" value="https://www.zhipin.com/job_detail/?query=python&amp;city=101030100&amp;source=8&amp;srcReferer=https://www.zhipin.com/web/common/security-check.html?seed=c%2BvqyuEERvAwNx9kghv%2FLWdKHHUq1VJIuEPmJduHKK8%3D&amp;name=3b962fbb&amp;ts=1621789700310&amp;callbackUrl=%2Fjob_detail%2F%3Fquery%3Dpython%26city%3D101030100%26source%3D8&amp;srcReferer=">
+        </div>
+    </div>
+    <div id="tips">
+
+    </div>
+
+    <div id="footer">
+        <p>© copyright BOSS直聘  京ICP备14013441号-5</p>
+    </div>
+</div>
+<script type="text/javascript" src="https://static.zhipin.com/library/js/lib/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="https://static.zhipin.com/library/js/lib/f.min.js"></script>
+
+<script src="/wapi/zpAntispam/verify/js/gt.js"></script>
+<script src="/wapi/zpAntispam/verify/js/layer/layer.js"></script>
+
+
+<script type="text/javascript">
+    $.ajax({
+        url: "/wapi/zpAntispam/verify/getPageShowInfo.json",
+        type: "POST",
+        dataType: "json",
+        success: function (data) {
+            if (data["code"] == 0) {
+                var zpData = data["zpData"];
+                $("#verifyMessage").text(zpData["verifyMessage"]);
+            }
+        }
+    });
+    var ___captchaObj = null;
+    var handler = function (captchaObj) {
+        captchaObj.onReady(function () {
+            $("#wait").hide();
+        }).onSuccess(function () {
+            var result = captchaObj.getValidate();
+            if (!result) {
+                return alert('请完成验证');
+            }
+            $.ajax({
+                url: "/wapi/zpAntispam/verify/api/geet/confirm.json",
+                type: "POST",
+                dataType: "text",
+                data: {
+                    "challenge": result.geetest_challenge,
+                    "validate": result.geetest_validate,
+                    "seccode": result.geetest_seccode
+                },
+                success: function (data) {
+                    console.info("成功");
+                    if (data === "success") {
+                        var callbackUrl = $("#callbackUrl").val();
+                        layer.load(2, {shade: false});
+                        setTimeout(function(){redirect()}, 3000);
+                    }
+                }
+            });
+        });
+        ___captchaObj = captchaObj;
+        setTimeout(function () {
+            $("#callVerifyBtn").click();
+        }, 1000);
+
+    };
+    $('#callVerifyBtn').click(function(){
+        if(___captchaObj) {
+                ___captchaObj.verify();
+            }
+    })
+    $('#geetVerifyBtn').click(function () {
+            if(___captchaObj == null) {
+                init();
+            } else {
+                ___captchaObj.verify();
+            }
+            /*
+            if(___captchaObj) {
+                ___captchaObj.verify();
+            }
+            */
+    })
+
+    function redirect() {
+        var callbackUrl = $("#callbackUrl").val();
+        if (/MSIE (\d+\.\d+);/.test(navigator.userAgent) || /MSIE(\d+\.\d+);/.test(navigator.userAgent))
+        {
+            var referLink = document.createElement('a');
+            referLink.href = callbackUrl;
+            document.body.appendChild(referLink);
+            referLink.click();
+        } else {
+            location.href = callbackUrl;
+        }
+    }
+
+    function init() {
+        $.ajax({
+            url: "/wapi/zpAntispam/verify/api/geet/init.json",
+            type: "get",
+            dataType: "json",
+            success: function (data) {
+                console.info("data: " + data);
+                //请检测data的数据结构， 保证data.gt, data.challenge, data.success有值
+                initGeetest({
+                    gt: data.gt,
+                    challenge: data.challenge,
+                    offline: !data.success,
+                    new_captcha: true,
+                    product: "bind"
+                }, handler)
+            }
+        });
+    }
+    /*
+    function (captchaObj) {
+                    captchaObj.appendTo("#captchaBox"); //将验证按钮插入到宿主页面中captchaBox元素内
+
+                    captchaObj.onSuccess(function(){
+                        console.info("success");
+                        var result = captchaObj.getValidate();
+                        $.ajax({
+                            url: "/wapi/zpAntispam/verify/api/geet/confirm.json",
+                            type: "POST",
+                            dataType: "text",
+                            data: {
+                                "challenge": result.geetest_challenge,
+                                "validate": result.geetest_validate,
+                                "seccode": result.geetest_seccode
+                            },
+                            success: function (data) {
+                                console.info("成功");
+                                if (data === "success") {
+                                    var callbackUrl = $("#callbackUrl").val();
+                                    layer.load(2, {shade: false});
+                                    setTimeout("location.href = '" + callbackUrl + "'", 3000);
+                                }
+                            }
+                        });
+                    })
+     }
+    */
+
+    function isEmptyStr(str) {
+        return typeof str === "undefined" || str == null || str === "";
+    }
+
+    function addCookie(name, value) {
+        var str = name + "=" + escape(value);
+        var date = new Date();
+        var ms = 86400000;
+        date.setTime(date.getTime() + ms);
+        str += "; expires=" + date.toGMTString();
+        if(window.location.href.indexOf(".zhipin.com")> 0 ) {
+            str += "; path=/; domain=.zhipin.com";
+        } else {
+            str += "; path=/; domain=.weizhipin.com";
+        }
+        document.cookie = str;
+    }
+
+    var setFid = function(components) {
+        var values = components.map(function(component) {
+            return component.value;
+        });
+        var fid = Fingerprint2.x64hash128(values.join(''), 31);
+        addCookie('__fid', fid);
+        // 唤起页面通知
+   };
+
+    if (window.requestIdleCallback) {
+        requestIdleCallback(function () {
+            Fingerprint2.get(function (components) {
+                setFid(components);
+            });
+        });
+    } else {
+        setTimeout(function () {
+            Fingerprint2.get(function (components) {
+                setFid(components);
+            });
+        }, 500);
+    }
+
+/*
+    setTimeout(function () {
+            init();
+    }, 1000);
+    */
+
+</script>
+
+</body></html>
