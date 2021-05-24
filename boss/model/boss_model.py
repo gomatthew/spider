@@ -13,7 +13,7 @@ class Boss(Base):
     job_tag = Column(String(8), comment='职位')
     job_title = Column(String(64), comment='职位名称')
     job_describe = Column(TEXT, comment='职位描述')
-    job_address = Column(String(32), comment='工作地点')
+    job_address = Column(String(128), comment='工作地点')
     job_url = Column(String(128), comment='url')
     job_createtime = Column(DATETIME, comment='职位发布时间')
     salary = Column(String(64), comment='薪资')
