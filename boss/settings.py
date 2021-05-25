@@ -1,3 +1,4 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -6,6 +7,8 @@ BOT_NAME = 'boss'
 SPIDER_MODULES = ['boss.spiders']
 NEWSPIDER_MODULE = 'boss.spiders'
 
+base_path = os.path.abspath(__file__)
+log_path = os.path.join(os.path.dirname(os.path.dirname(base_path)), 'logs')
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'boss (+http://www.yourdomain.com)'
 
@@ -67,7 +70,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'boss.pipelines.BossPipeline': 300,
+    'boss.pipelines.BossPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
