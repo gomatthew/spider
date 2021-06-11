@@ -1,0 +1,721 @@
+[INFO  2021-06-10T12:41:41,943 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2021-06-10T12:41:42,082 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2021-06-10T12:41:42,137 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2021-06-10T12:41:42,305 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[WARN  2021-06-10T12:41:43,390 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:41:43,897 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2021-06-10T12:41:43,918 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:41:43,986 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[WARN  2021-06-10T12:44:46,595 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:44:46,800 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8082 
+[INFO  2021-06-10T12:44:46,806 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:44:46,813 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8082 
+[WARN  2021-06-10T12:46:35,091 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:46:35,113 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8083 
+[INFO  2021-06-10T12:46:35,122 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:46:35,141 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8083 
+[WARN  2021-06-10T12:50:06,391 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:50:06,609 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8084 
+[INFO  2021-06-10T12:50:06,619 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:50:06,623 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8084 
+[WARN  2021-06-10T12:54:13,171 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:54:13,309 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8085 
+[INFO  2021-06-10T12:54:13,312 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:54:13,316 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8085 
+[WARN  2021-06-10T12:55:21,608 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T12:55:21,627 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8086 
+[INFO  2021-06-10T12:55:21,633 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T12:55:21,639 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8086 
+[WARN  2021-06-10T13:04:43,769 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-13) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:04:43,937 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Starting proxy at address: 0.0.0.0/0.0.0.0:8087 
+[INFO  2021-06-10T13:04:43,953 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:04:43,980 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy started at address: /0:0:0:0:0:0:0:0:8087 
+[WARN  2021-06-10T13:04:46,631 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:04:46,633 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8088 
+[INFO  2021-06-10T13:04:46,640 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:04:46,643 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8088 
+[WARN  2021-06-10T13:06:48,556 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:06:48,762 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8089 
+[INFO  2021-06-10T13:06:48,770 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:06:48,773 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8089 
+[WARN  2021-06-10T13:11:05,403 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:11:05,553 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8090 
+[INFO  2021-06-10T13:11:05,564 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:11:05,570 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8090 
+[WARN  2021-06-10T13:13:32,198 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:13:32,432 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8091 
+[INFO  2021-06-10T13:13:32,442 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:13:32,446 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8091 
+[WARN  2021-06-10T13:20:43,796 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:20:43,988 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8092 
+[INFO  2021-06-10T13:20:43,999 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:20:44,010 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8092 
+[WARN  2021-06-10T13:22:12,042 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:22:12,072 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8093 
+[INFO  2021-06-10T13:22:12,079 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:22:12,083 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8093 
+[WARN  2021-06-10T13:23:01,082 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:23:01,285 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8094 
+[INFO  2021-06-10T13:23:01,298 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:23:01,300 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8094 
+[WARN  2021-06-10T13:27:25,564 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:27:25,758 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8095 
+[INFO  2021-06-10T13:27:25,766 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:27:25,774 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8095 
+[WARN  2021-06-10T13:27:43,779 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-13) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:27:43,781 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Starting proxy at address: 0.0.0.0/0.0.0.0:8096 
+[INFO  2021-06-10T13:27:43,785 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:27:43,786 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy started at address: /0:0:0:0:0:0:0:0:8096 
+[WARN  2021-06-10T13:31:06,962 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:31:07,138 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8097 
+[INFO  2021-06-10T13:31:07,146 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:31:07,152 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8097 
+[WARN  2021-06-10T13:34:24,099 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:34:24,251 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8098 
+[INFO  2021-06-10T13:34:24,258 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:34:24,266 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8098 
+[WARN  2021-06-10T13:44:12,350 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:44:12,508 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8099 
+[INFO  2021-06-10T13:44:12,536 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:44:12,551 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8099 
+[WARN  2021-06-10T13:49:12,414 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:49:12,657 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8100 
+[INFO  2021-06-10T13:49:12,672 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:49:12,693 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8100 
+[WARN  2021-06-10T13:51:34,924 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:51:35,097 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8101 
+[INFO  2021-06-10T13:51:35,107 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:51:35,117 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8101 
+[INFO  2021-06-10T13:51:44,800 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-1) (HANDSHAKING) [id: 0xb68e3467, L:0.0.0.0/0.0.0.0:52112 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+
+[ERROR 2021-06-10T13:51:44,800 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-20-ClientToProxyWorker-1) (NEGOTIATING_CONNECT) [id: 0xead20cba, L:0.0.0.0/0.0.0.0:8101 ! R:/0:0:0:0:0:0:0:1:52107]: Caught an exception on ClientToProxyConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[INFO  2021-06-10T13:51:45,062 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-0) (HANDSHAKING) [id: 0x08e9146c, L:0.0.0.0/0.0.0.0:52114 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+
+[ERROR 2021-06-10T13:51:45,061 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-20-ClientToProxyWorker-0) (NEGOTIATING_CONNECT) [id: 0x93d95335, L:0.0.0.0/0.0.0.0:8101 ! R:/0:0:0:0:0:0:0:1:52106]: Caught an exception on ClientToProxyConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[ERROR 2021-06-10T13:51:46,629 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-20-ClientToProxyWorker-3) (NEGOTIATING_CONNECT) [id: 0x6c01dfbf, L:0.0.0.0/0.0.0.0:8101 ! R:/0:0:0:0:0:0:0:1:52130]: Caught an exception on ClientToProxyConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[INFO  2021-06-10T13:51:46,630 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-3) (HANDSHAKING) [id: 0x8fc2c017, L:0.0.0.0/0.0.0.0:52131 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+
+[ERROR 2021-06-10T13:51:49,883 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-20-ClientToProxyWorker-4) (NEGOTIATING_CONNECT) [id: 0x34653458, L:0.0.0.0/0.0.0.0:8101 ! R:/0:0:0:0:0:0:0:1:52149]: Caught an exception on ClientToProxyConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[INFO  2021-06-10T13:51:49,886 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-4) (HANDSHAKING) [id: 0x7924c985, L:0.0.0.0/0.0.0.0:52150 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+
+[ERROR 2021-06-10T13:51:58,493 org.littleshoot.proxy.impl.ClientToProxyConnection] (LittleProxy-20-ClientToProxyWorker-5) (NEGOTIATING_CONNECT) [id: 0x2e224162, L:0.0.0.0/0.0.0.0:8101 ! R:/0:0:0:0:0:0:0:1:52190]: Caught an exception on ClientToProxyConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[INFO  2021-06-10T13:51:58,497 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-5) (HANDSHAKING) [id: 0xb7b6425e, L:0.0.0.0/0.0.0.0:52191 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:357) ~[?:1.8.0_291]
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293) ~[?:1.8.0_291]
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:203) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:154) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:597) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:552) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:418) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:397) ~[?:1.8.0_291]
+	at javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:626) ~[?:1.8.0_291]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1097) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:968) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+
+[WARN  2021-06-10T13:52:16,498 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:52:16,503 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8102 
+[INFO  2021-06-10T13:52:16,506 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:52:16,508 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8102 
+[INFO  2021-06-10T13:52:33,298 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-20-ProxyToServerWorker-6) (HANDSHAKING) [id: 0x6a797643, L:0.0.0.0/0.0.0.0:52546 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T13:54:10,355 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:54:10,574 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8103 
+[INFO  2021-06-10T13:54:10,576 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:54:10,598 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8103 
+[WARN  2021-06-10T13:55:22,353 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:55:22,354 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8104 
+[INFO  2021-06-10T13:55:22,355 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:55:22,356 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8104 
+[WARN  2021-06-10T13:56:09,321 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T13:56:09,325 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8105 
+[INFO  2021-06-10T13:56:09,327 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T13:56:09,328 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8105 
+[WARN  2021-06-10T14:02:51,664 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:02:51,849 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8106 
+[INFO  2021-06-10T14:02:51,865 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:02:51,873 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8106 
+[WARN  2021-06-10T14:02:57,977 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:02:57,980 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8107 
+[INFO  2021-06-10T14:02:57,986 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:02:57,987 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8107 
+[WARN  2021-06-10T14:04:02,549 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:04:02,561 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8108 
+[INFO  2021-06-10T14:04:02,570 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:04:02,574 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8108 
+[WARN  2021-06-10T14:05:43,027 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:05:43,211 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8109 
+[INFO  2021-06-10T14:05:43,220 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:05:43,222 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8109 
+[WARN  2021-06-10T14:06:21,671 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:06:21,675 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8110 
+[INFO  2021-06-10T14:06:21,676 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:06:21,677 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8110 
+[WARN  2021-06-10T14:06:32,715 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-29-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:06:32,717 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-29-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:06:32,726 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-29-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:06:32,726 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-29-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:06:32,854 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-29-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:06:32,854 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-29-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:06:35,605 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-29-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:06:35,605 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-29-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2021-06-10T14:06:51,450 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-29-ProxyToServerWorker-3) (HANDSHAKING) [id: 0xf9ffc69d, L:0.0.0.0/0.0.0.0:57212 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:09:54,792 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:09:54,989 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8111 
+[INFO  2021-06-10T14:09:55,001 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:09:55,014 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8111 
+[WARN  2021-06-10T14:10:04,822 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-30-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:10:04,822 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-30-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:10:04,840 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-30-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:10:04,840 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-30-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:10:04,938 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-30-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:10:04,938 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-30-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:10:06,054 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-30-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:10:06,056 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-30-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:10:11,768 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-30-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:10:11,769 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-30-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:14:15,605 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:14:15,744 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8112 
+[INFO  2021-06-10T14:14:15,747 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:14:15,755 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8112 
+[INFO  2021-06-10T14:14:19,748 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-1) (HANDSHAKING) [id: 0xbbea6aa4, L:0.0.0.0/0.0.0.0:59581 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:20,822 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-2) (HANDSHAKING) [id: 0x69855c29, L:0.0.0.0/0.0.0.0:59592 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:21,051 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-0) (HANDSHAKING) [id: 0x2dc008a6, L:0.0.0.0/0.0.0.0:59578 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:31,231 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-3) (HANDSHAKING) [id: 0xc07425e5, L:0.0.0.0/0.0.0.0:59595 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:35,019 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-6) (HANDSHAKING) [id: 0x4bc2343e, L:0.0.0.0/0.0.0.0:59659 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:36,063 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-3) (HANDSHAKING) [id: 0x99f4da7c, L:0.0.0.0/0.0.0.0:59683 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:14:36,063 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-4) (HANDSHAKING) [id: 0x3b272826, L:0.0.0.0/0.0.0.0:59684 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:14:36,454 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-31-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:14:36,456 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-31-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2021-06-10T14:14:38,314 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-31-ProxyToServerWorker-5) (HANDSHAKING) [id: 0x672479cd, L:0.0.0.0/0.0.0.0:59686 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:16:11,646 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:16:11,648 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8113 
+[INFO  2021-06-10T14:16:11,648 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:16:11,649 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8113 
+[INFO  2021-06-10T14:16:24,799 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-1) (HANDSHAKING) [id: 0x6ac27c73, L:0.0.0.0/0.0.0.0:60159 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:24,799 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-0) (HANDSHAKING) [id: 0x3ad20e12, L:0.0.0.0/0.0.0.0:60156 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:30,906 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-0) (HANDSHAKING) [id: 0xc0b12fcc, L:0.0.0.0/0.0.0.0:60240 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:16:33,997 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-32-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:16:33,997 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-32-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2021-06-10T14:16:37,111 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-6) (HANDSHAKING) [id: 0x1a3ffed0, L:0.0.0.0/0.0.0.0:60217 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:37,119 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-4) (HANDSHAKING) [id: 0x5d7f4921, L:0.0.0.0/0.0.0.0:60218 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:37,434 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-7) (HANDSHAKING) [id: 0xaf190246, L:0.0.0.0/0.0.0.0:60227 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:41,592 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-4) (HANDSHAKING) [id: 0x5a65660e, L:0.0.0.0/0.0.0.0:60285 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed java.nio.channels.ClosedChannelException: null
+	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:47,253 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-2) (HANDSHAKING) [id: 0xcd9cb7e7, L:0.0.0.0/0.0.0.0:60279 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:47,262 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-3) (HANDSHAKING) [id: 0x31bee7e3, L:0.0.0.0/0.0.0.0:60282 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:16:48,372 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-5) (HANDSHAKING) [id: 0xfee775fe, L:0.0.0.0/0.0.0.0:60293 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:17:20,858 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-6) (HANDSHAKING) [id: 0x97f21d19, L:0.0.0.0/0.0.0.0:60441 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:17:25,149 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-32-ProxyToServerWorker-7) (HANDSHAKING) [id: 0xc4062168, L:0.0.0.0/0.0.0.0:60463 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:21:40,531 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-16) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:21:40,703 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Starting proxy at address: 0.0.0.0/0.0.0.0:8114 
+[INFO  2021-06-10T14:21:40,708 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:21:40,711 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-16) Proxy started at address: /0:0:0:0:0:0:0:0:8114 
+[WARN  2021-06-10T14:21:48,553 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:21:48,556 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:21:48,707 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:21:48,707 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:21:49,806 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:21:49,806 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-33-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:21:53,040 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-33-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:21:53,040 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-33-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:22:00,500 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-33-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:22:00,501 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-33-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:22:48,421 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-13) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:22:48,452 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Starting proxy at address: 0.0.0.0/0.0.0.0:8115 
+[INFO  2021-06-10T14:22:48,453 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:22:48,453 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy started at address: /0:0:0:0:0:0:0:0:8115 
+[WARN  2021-06-10T14:22:57,891 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-34-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:22:57,892 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-34-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:22:57,998 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-34-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:22:57,998 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-34-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:22:58,199 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-34-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:22:58,199 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-34-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:01,762 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-34-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:01,763 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-34-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:07,697 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-34-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:07,698 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-34-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:31,339 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:23:31,341 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8116 
+[INFO  2021-06-10T14:23:31,342 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:23:31,348 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8116 
+[WARN  2021-06-10T14:23:37,962 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-35-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:37,962 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-35-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:37,976 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-35-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:37,976 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-35-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:38,082 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-35-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:38,082 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-35-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:41,838 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-35-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:41,838 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-35-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:23:46,644 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-35-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:23:46,644 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-35-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:24:13,512 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:24:13,648 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8117 
+[INFO  2021-06-10T14:24:13,652 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:24:13,660 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8117 
+[WARN  2021-06-10T14:24:21,442 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-36-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:24:21,442 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-36-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:24:21,496 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-36-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:24:21,496 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-36-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:24:21,583 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-36-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:24:21,584 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-36-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:24:23,771 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-36-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:24:23,771 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-36-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:24:28,273 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-36-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:24:28,274 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-36-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:27:59,187 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-17) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:27:59,195 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8118 
+[INFO  2021-06-10T14:27:59,196 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:27:59,196 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-17) Proxy started at address: /0:0:0:0:0:0:0:0:8118 
+[WARN  2021-06-10T14:28:10,264 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-37-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:28:10,265 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-37-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:28:10,472 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-37-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:28:10,473 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-37-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:28:10,651 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-37-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:28:10,651 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-37-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:28:13,241 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-37-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:28:13,242 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-37-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:28:24,249 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-37-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:28:24,250 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-37-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:30:17,753 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:30:17,901 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8119 
+[INFO  2021-06-10T14:30:17,905 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:30:17,909 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8119 
+[INFO  2021-06-10T14:30:31,535 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-38-ProxyToServerWorker-0) (HANDSHAKING) [id: 0x7f31f714, L:0.0.0.0/0.0.0.0:64792 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:30:31,620 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-38-ProxyToServerWorker-1) (HANDSHAKING) [id: 0xebb3c47d, L:0.0.0.0/0.0.0.0:64796 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:30:42,547 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-38-ProxyToServerWorker-2) (HANDSHAKING) [id: 0xa23c1244, L:0.0.0.0/0.0.0.0:64844 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:30:42,964 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-13) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:30:42,966 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Starting proxy at address: 0.0.0.0/0.0.0.0:8120 
+[INFO  2021-06-10T14:30:42,967 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:30:42,968 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-13) Proxy started at address: /0:0:0:0:0:0:0:0:8120 
+[INFO  2021-06-10T14:30:55,406 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-38-ProxyToServerWorker-3) (HANDSHAKING) [id: 0xe47fff35, L:0.0.0.0/0.0.0.0:64931 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:30:56,179 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-39-ProxyToServerWorker-0) (HANDSHAKING) [id: 0x77c38496, L:0.0.0.0/0.0.0.0:64936 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:30:56,234 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-39-ProxyToServerWorker-1) (HANDSHAKING) [id: 0x6547ff59, L:0.0.0.0/0.0.0.0:64941 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:31:06,509 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-39-ProxyToServerWorker-2) (HANDSHAKING) [id: 0xc445f19c, L:0.0.0.0/0.0.0.0:64993 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:31:07,123 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-39-ProxyToServerWorker-3) (HANDSHAKING) [id: 0x74ca6f6a, L:0.0.0.0/0.0.0.0:64996 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:31:16,579 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-39-ProxyToServerWorker-4) (HANDSHAKING) [id: 0xfcf90993, L:0.0.0.0/0.0.0.0:65044 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:31:37,045 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-39-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:37,051 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-39-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:37,523 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-39-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:37,524 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-39-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:38,326 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-39-ProxyToServerWorker-4) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:38,327 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-39-ProxyToServerWorker-4) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:41,020 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-39-ProxyToServerWorker-5) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:41,020 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-39-ProxyToServerWorker-5) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:45,438 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-18) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:31:45,443 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8121 
+[INFO  2021-06-10T14:31:45,445 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:31:45,446 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-18) Proxy started at address: /0:0:0:0:0:0:0:0:8121 
+[WARN  2021-06-10T14:31:56,960 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-40-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:56,961 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-40-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:57,104 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-40-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:57,105 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-40-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:31:57,533 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-40-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:31:57,534 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-40-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:32:02,672 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-40-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:32:02,690 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-40-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:32:18,574 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-40-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:32:18,576 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-40-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:36:32,411 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-19) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:36:32,673 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Starting proxy at address: 0.0.0.0/0.0.0.0:8122 
+[INFO  2021-06-10T14:36:32,687 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:36:32,698 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-19) Proxy started at address: /0:0:0:0:0:0:0:0:8122 
+[WARN  2021-06-10T14:36:43,914 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-41-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:36:43,919 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-41-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:36:43,935 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-41-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:36:43,935 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-41-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:36:44,055 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-41-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:36:44,055 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-41-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:36:46,540 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-41-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:36:46,540 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-41-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:36:59,524 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-41-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:36:59,524 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-41-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2021-06-10T14:37:35,789 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-41-ProxyToServerWorker-3) (HANDSHAKING) [id: 0xfe60e576, L:0.0.0.0/0.0.0.0:50855 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[INFO  2021-06-10T14:37:35,982 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-41-ProxyToServerWorker-4) (HANDSHAKING) [id: 0xb1b95910, L:0.0.0.0/0.0.0.0:50859 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+
+[WARN  2021-06-10T14:38:57,329 net.lightbody.bmp.BrowserMobProxyServerLegacyAdapter] (qtp1533985074-20) Chained proxy support through setOptions is deprecated. Use setUpstreamProxy() to enable chained proxy support. 
+[INFO  2021-06-10T14:38:57,535 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8123 
+[INFO  2021-06-10T14:38:57,538 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy listening with TCP transport 
+[INFO  2021-06-10T14:38:57,541 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1533985074-20) Proxy started at address: /0:0:0:0:0:0:0:0:8123 
+[WARN  2021-06-10T14:39:08,335 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-42-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:39:08,336 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-42-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:39:08,350 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-42-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:39:08,351 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-42-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:39:08,438 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-42-ProxyToServerWorker-6) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:39:08,439 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-42-ProxyToServerWorker-6) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2021-06-10T14:39:10,223 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-42-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2021-06-10T14:39:10,223 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-42-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2021-06-10T14:39:24,907 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-42-ProxyToServerWorker-2) (HANDSHAKING) [id: 0x447c3cc0, L:0.0.0.0/0.0.0.0:51408 ! R:/127.0.0.1:7890]: Connection to upstream server via chained proxy failed javax.net.ssl.SSLException: handshake timed out
+	at io.netty.handler.ssl.SslHandler.handshake(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+

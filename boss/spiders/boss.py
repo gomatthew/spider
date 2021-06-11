@@ -20,8 +20,11 @@ class BossSpider(scrapy.Spider):
     allowed_domains = ['zhipin.com']
     start_urls = 'https://www.zhipin.com/job_detail/?query=python&city=101030100&source=8'
     url_domain = 'https://www.zhipin.com'
+    custom_settings = {
+        "JOBDIR": "job_info/001"
+    }
 
-    def __init__(self):
+    def __init__(self,**kwargs):
         super().__init__()
         option = uc.ChromeOptions()
         # option.add_argument('--headless')
@@ -79,7 +82,8 @@ class BossSpider(scrapy.Spider):
                 item_loader.add_value('salary_multiple', doc('.salary').text().strip('薪').split('·')[-1])
             item_loader.add_value('company', doc('.job-sec .name').text())
             item_loader.add_value('company_createtime', doc('.level-list .res-time').text().split('：')[-1])
-            item_loader.add_value('company_registered_fund', re.match('.*注册资金：(.*)万', doc('.level-list').text(), re.S).group(1) if re.match(
+            item_loader.add_value('company_registered_fund',
+                                  re.match('.*注册资金：(.*)万', doc('.level-list').text(), re.S).group(1) if re.match(
                                       '.*注册资金：(.*)万', doc('.level-list').text(), re.S) else None)
             item_loader.add_value('company_people', re.findall('\d.*人', doc('.sider-company p').text()))
             item_loader.add_value('company_industry', doc('.sider-company a[ka=job-detail-brandindustry]').text())

@@ -8,3 +8,5 @@ rq==1.8.0
 pyquery==1.4.3
 sqlalchemy==1.4.6
 undetected_chromedriver==2.2.7
+redis==3.5.3
+scrapyd==1.2.1

@@ -108,6 +108,6 @@ class JSPageMiddleware(object):
         if spider.name == "boss":
             spider.browser.get(request.url)
             time.sleep(35)
-            print ("访问:{0}".format(request.url))
+            # print ("访问:{0}".format(request.url))
             callback = request.callback
             return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding="utf-8", request=request)
