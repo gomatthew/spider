@@ -24,7 +24,7 @@ class BossSpider(scrapy.Spider):
         "JOBDIR": "job_info/001"
     }
 
-    def __init__(self,**kwargs):
+    def __init__(self, **kwargs):
         super().__init__()
         option = uc.ChromeOptions()
         # option.add_argument('--headless')
@@ -44,9 +44,7 @@ class BossSpider(scrapy.Spider):
         next_url = doc('a[ka=page-next]').attr('href')
         if next_url != 'javascript:;':
             yield Request(url=parse.urljoin(self.url_domain, next_url), callback=self.parse_list)
-        else:
-            self.spider_closed()
-            return
+        print(next_url)
 
     def start_requests(self):
         self.browser.get(self.start_urls)
